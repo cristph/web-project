@@ -1,0 +1,81 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: azure;
+}
+
+div.home-user{
+    height:60px;
+    width: 150px;
+    float: right;
+}
+
+div.home_header{
+    height: 60px;
+    background-color: darkkhaki;
+}
+
+div.home-user-content{
+    margin-top: 15px;
+}
+
+li{
+    margin-top: 15px;
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+div.home_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+div.image-container{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+img.my-img{
+    height: 200px;
+    width: 200px;
+}
+
+div.name-container{
+    text-align: center;
+    font-size: 20px;
+}
+
+div.div_left_border{
+    border-left: 1px solid #a1a19c;
+}
+
+div.my-form{
+    margin-left: 20px;
+    text-align: center;
+}
+
+textarea.my-text{
+    height:80px;
+    width: 100%;
+}
+
+dl.my-submit{
+    text-align: right;
+}
+
+div.my-advice{
+    margin-left: 40px;
+}
+
+div.advice-other-info{
+    text-align: right;
+}
+
+div.blank10{
+    height: 15px;
+}

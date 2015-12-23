@@ -1,0 +1,113 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: azure;
+}
+
+div.home-user{
+    height:60px;
+    width: 150px;
+    float: right;
+}
+
+div.home_header{
+    height: 60px;
+    background-color: darkkhaki;
+}
+
+.home-user-content{
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 15px;
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+div.home_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.user-image{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.user-name{
+    font-size: 25px;
+    text-align: center;
+    color: #444444;
+    font-weight: bold;
+}
+.content_right{
+    float: right;
+}
+
+.blank20{
+    height: 20px;
+}
+
+.activity-info{
+    background-color: #36310e;
+    color: #ffffff;
+}
+
+.time p,.title p,.con p{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.time span,.title span,.con span{
+    margin-right: 30px;
+}
+
+div.blank10{
+    height: 10px;
+}
+
+div.seperator{
+    border-bottom: 1px solid #36310e;
+}
+
+span.info{
+    margin-bottom: 15px;
+}
+
+img.participator-img{
+    height: 50px;
+    width: 50px;
+}
+
+span.participator-name{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: aliceblue;
+}
+
+div.blank5{
+    height: 5px;
+}

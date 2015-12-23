@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: azure;
+}
+
+
+div.home-user{
+    height:60px;
+    width: 150px;
+    float: right;
+}
+
+div.home_header{
+    height: 60px;
+    background-color: darkkhaki;
+}
+
+li{
+    margin-top: 15px;
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+div.home_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.content{
+    height: 500px;
+    width: 100%;
+}
+.content .content_left{
+    float: left;
+    width: 250px;
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+
+.user-image{
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.user-name{
+    font-size: 25px;
+    text-align: center;
+    color: #444444;
+    font-weight: bold;
+}
+.content_right{
+    float: right;
+}
+
+.blank10{
+    height: 10px;
+}
+
+.sports-label{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+div.home-user-content{
+    margin-top: 15px;
+}
+
+div.seperate{
+    border-bottom: 1px solid #a1a19c;
+}
+div.all{
+    height: 80px;
+    background-color: grey;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.instruction{
+    height: 40px;
+}
+
+div.detail{
+    margin-top: 30px;
+    text-align: right;
+    font-size: large;
+}
+
+div.title{
+    margin-top: 30px;
+}
+
+.page-number{
+    font-size : 20px
+}
+
+
+footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: aliceblue;
+}

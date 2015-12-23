@@ -1,0 +1,117 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: azure;
+}
+
+div.home-user{
+    height:60px;
+    width: 150px;
+    float: right;
+}
+
+div.home_header{
+    height: 60px;
+    background-color: darkkhaki;
+}
+
+div.home-user-content{
+    margin-top: 15px;
+}
+
+li{
+    margin-top: 15px;
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+div.home_header a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+div.div_right_border{
+    border-right: 1px solid #a1a19c;
+    height: 600px;
+}
+div.my_form{
+    margin-left: 20px;
+}
+div.img_container{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+div img.my_img{
+    height:200px;
+    width: 200px;
+}
+
+div.my_btn{
+    text-align: center;
+}
+span img.my_img{
+    height : 30px;
+    width : 30px;
+}
+
+div.blank10{
+    height: 10px;
+}
+
+div.text_container{
+    text-align: center;
+    font-size: 20px;
+}
+
+dl.my_btn{
+    text-align: right;
+}
+
+form textarea.advice{
+    height:80px;
+}
+
+div.my_image{
+    margin-left: 30px;
+}
+
+img.my_img{
+    height:50px;
+    width: 50px;
+}
+
+label.user-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.content-container{
+    margin-left: 50px;
+}
+
+div.other-info{
+    text-align: right;
+    color: #000000;
+}
+
+div.chevron{
+    text-align: right;
+}
+
+footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: aliceblue;
+}
