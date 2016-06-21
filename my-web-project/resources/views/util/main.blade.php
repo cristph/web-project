@@ -11,8 +11,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{URL::asset('bootstrap/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/util/main.css')}}">
-        <link rel="stylesheet" href="{{
-            URL::asset('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('font-awesome/css/font-awesome.min.css')}}">
         <script src="{{URL::asset('js/jquery/jquery-3.0.0.min.js')}}"></script>
         <script src="{{URL::asset('bootstrap/js/bootstrap.min.js')}}"></script>
         <title>main</title>
@@ -82,8 +81,7 @@
                         <a href="#">
                             <i class="fa fa-home"></i>
                             <span>我的首页</span>
-                            <
-                            class="fa fa-angle-right pull-right"></i>
+                            <i class="fa fa-angle-right pull-right"></i>
                         </a>
                     </li>
                     <li class="menu-info">
