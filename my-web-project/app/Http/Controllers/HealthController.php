@@ -21,7 +21,7 @@ class HealthController extends Controller
     {
         $accountId = $request->session()->get('id');
         $name = User::where('id',$accountId)->first()['name'];
-        $last_week = date('Y-m-d H:i:s',time()-8*24*60*60);
+        $last_week = date('Y-m-d H:i:s',time()-200*24*60*60);
         $steps_from_start= Data::where('user_id',$accountId)->sum('steps');
         $start_date = Data::orderBy('created_at','asc')->get()[0]->created_at;
         $day_gap =(int) ((time()- strtotime($start_date))/(60*60*24));

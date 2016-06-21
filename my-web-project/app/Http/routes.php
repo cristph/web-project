@@ -11,6 +11,10 @@
 |
 */
 
+Route::get("/", function () {
+    return view('util.main');
+});
+
 Route::get('/logout', function () {
     return view('logout');
 });
