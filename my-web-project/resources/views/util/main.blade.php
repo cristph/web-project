@@ -11,6 +11,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="{{URL::asset('bootstrap/css/bootstrap.min.css')}}">
         <link rel="stylesheet" href="{{URL::asset('css/util/main.css')}}">
+        @yield('css')
         <link rel="stylesheet" href="{{URL::asset('font-awesome/css/font-awesome.min.css')}}">
         <script src="{{URL::asset('js/jquery/jquery-3.0.0.min.js')}}"></script>
         <script src="{{URL::asset('bootstrap/js/bootstrap.min.js')}}"></script>
@@ -105,5 +106,8 @@
                 </ul>
             </section>
         </aside>
+        <div class="container">
+            @yield('content')
+        </div>
     </body>
 </html>

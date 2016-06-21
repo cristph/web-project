@@ -193,3 +193,13 @@ li.menu-info>a:hover, li.menu-info>a:active{
 li.menu-info>a>i{
     padding-right: 8px;
 }
+
+div.container{
+    margin-left: 250px;
+
+    z-index: 800;
+
+    min-height: 916px;
+
+    background-color: #ecf0f5;
+}
