@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="{{URL::asset('font-awesome/css/font-awesome.min.css')}}">
         <script src="{{URL::asset('js/jquery/jquery-3.0.0.min.js')}}"></script>
         <script src="{{URL::asset('bootstrap/js/bootstrap.min.js')}}"></script>
-        <title>main</title>
+        <title>@yield('title')</title>
     </head>
     <body>
         <header class="main-header">
@@ -39,12 +39,12 @@
                         </li>
                         <li class="dropdown user user-menu">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                                <img src="image/portrait/1.jpg" class="user-image">
+                                <img src="/image/portrait/1.jpg" class="user-image">
                                 <span class="hidden-xs user-name">Alexander Pierce</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="user-header">
-                                    <img src="image/portrait/1.jpg" class="img-circle" alt="User Image">
+                                    <img src="/image/portrait/1.jpg" class="img-circle" alt="User Image">
                                     <p>
                                         Alexander Pierce
                                         <br>
@@ -69,7 +69,7 @@
             <section class="sidebar">
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="image/portrait/1.jpg" class="img-circle" alt="User Image">
+                        <img src="/image/portrait/1.jpg" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
                         <p>Alexander Pierce</p>
